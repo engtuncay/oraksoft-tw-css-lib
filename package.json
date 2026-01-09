@@ -1,6 +1,6 @@
 {
   "name": "oraksoft-tw-css-lib",
-  "version": "1.0.1",
+  "version": "0.0.2",
   "description": "Oraksoft Tailwind CSS Library",
   "main": "dist/index.css",
   "style": "dist/index.css",
