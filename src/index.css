@@ -1,0 +1,38 @@
+/* Oraksoft TW CSS Library */
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Utility Classes */
+
+/* Spacing */
+.tw-m-0 { margin: 0; }
+.tw-m-1 { margin: 0.25rem; }
+.tw-m-2 { margin: 0.5rem; }
+.tw-m-3 { margin: 0.75rem; }
+.tw-m-4 { margin: 1rem; }
+
+.tw-p-0 { padding: 0; }
+.tw-p-1 { padding: 0.25rem; }
+.tw-p-2 { padding: 0.5rem; }
+.tw-p-3 { padding: 0.75rem; }
+.tw-p-4 { padding: 1rem; }
+/* Colors */
+.tw-text-red { color: #ef4444; }
+.tw-text-blue { color: #3b82f6; }
+.tw-text-green { color: #10b981; }
+
+.tw-bg-red { background-color: #ef4444; }
+.tw-bg-blue { background-color: #3b82f6; }
+.tw-bg-green { background-color: #10b981; }
+/* Flexbox */
+.tw-flex { display: flex; }
+.tw-flex-col { flex-direction: column; }
+.tw-items-center { align-items: center; }
+.tw-justify-center { justify-content: center; }
+
+/* Add more utilities as needed */

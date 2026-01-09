@@ -1,0 +1,27 @@
+{
+  "name": "oraksoft-tw-css-lib",
+  "version": "1.0.0",
+  "description": "Oraksoft Tailwind CSS Library",
+  "main": "dist/index.css",
+  "style": "dist/index.css",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "if not exist dist mkdir dist && copy src\\*.css dist\\",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [
+    "css",
+    "library",
+    "tailwind",
+    "oraksoft"
+  ],
+  "author": "Oraksoft",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oraksoftware/oraksoft-tw-css-lib.git"
+  },
+  "homepage": "https://github.com/oraksoftware/oraksoft-tw-css-lib#readme"
+}

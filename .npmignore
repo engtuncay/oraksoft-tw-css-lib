@@ -1,0 +1,27 @@
+# Kaynak dosyalar - sadece dist/ yayınlansın
+src/
+
+# Geliştirme dosyaları
+.gitignore
+*.log
+
+# Test dosyaları (gelecekte eklenebilir)
+test/
+tests/
+*.test.js
+*.spec.js
+
+# IDE ve editor dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Paket dosyaları
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
