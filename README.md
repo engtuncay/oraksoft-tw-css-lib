@@ -19,7 +19,7 @@ CSS dosyanızı projenize dahil edin:
 Veya HTML'de:
 
 ```html
-<link rel="stylesheet" href="node_modules/oraksoft-tw-css-lib/dist/index.css">
+<link rel="stylesheet" href="node_modules/oraksoft-tw-css-lib/dist/oraksoft-tw-lib.css">
 ```
 
 ## Geliştirme
