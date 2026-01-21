@@ -1,14 +1,15 @@
 {
   "name": "oraksoft-tw-css-lib",
-  "version": "0.0.2",
-  "description": "Oraksoft Tailwind CSS Library",
+  "version": "0.0.6",
+  "description": "Oraksoft Tailwind CSS Library - a portion of mostly used Tailwind CSS classes",
   "main": "dist/index.css",
   "style": "dist/index.css",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "if not exist dist mkdir dist && copy src\\*.css dist\\",
+    "build": "powershell -Command \"if (!(Test-Path dist)) { New-Item -ItemType Directory -Path dist }; Copy-Item -Path src\\*.css -Destination dist\\ -Force\"",
+    "watch": "powershell -Command \"Write-Host 'Watching src/ for changes... Press Ctrl+C to stop'; while ($true) { Copy-Item -Path src\\*.css -Destination dist\\ -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1 }\"",
     "prepublishOnly": "pnpm run build"
   },
   "keywords": [

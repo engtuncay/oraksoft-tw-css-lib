@@ -1,11 +1,11 @@
 /* Oraksoft TW CSS Library */
 
 /* Reset */
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 /* Utility Classes */
 
@@ -15,12 +15,42 @@
 .tw-m-2 { margin: 0.5rem; }
 .tw-m-3 { margin: 0.75rem; }
 .tw-m-4 { margin: 1rem; }
+.tw-m-5 { margin: 1.25rem; }
+.tw-m-6 { margin: 1.5rem; }
+.tw-m-7 { margin: 1.75rem; }
+.tw-m-8 { margin: 2rem; }
 
+
+/* Padding */
 .tw-p-0 { padding: 0; }
 .tw-p-1 { padding: 0.25rem; }
 .tw-p-2 { padding: 0.5rem; }
 .tw-p-3 { padding: 0.75rem; }
 .tw-p-4 { padding: 1rem; }
+
+/* Width */
+.tw-w-1 { width: 0.25rem; }
+.tw-w-2 { width: 0.5rem; }
+.tw-w-3 { width: 0.75rem; }
+.tw-w-4 { width: 1rem; }
+.tw-w-5 { width: 1.25rem; }
+.tw-w-6 { width: 1.5rem; }
+.tw-w-7 { width: 1.75rem; }
+.tw-w-8 { width: 2rem; }
+.tw-w-9 { width: 2.25rem; }
+.tw-w-10 { width: 2.5rem; }
+.tw-w-12 { width: 3rem; }
+.tw-w-16 { width: 4rem; }
+.tw-w-20 { width: 5rem; }
+.tw-w-24 { width: 6rem; }
+.tw-w-30 { width: 7.5rem; }
+.tw-w-36 { width: 9rem; }
+.tw-w-40 { width: 10rem; }
+.tw-w-44 { width: 11rem; }
+.tw-w-48 { width: 12rem; }
+.tw-w-50 { width: 12.5rem; }
+.tw-w-60 { width: 15rem; }
+
 /* Colors */
 .tw-text-red { color: #ef4444; }
 .tw-text-blue { color: #3b82f6; }
@@ -29,6 +59,7 @@
 .tw-bg-red { background-color: #ef4444; }
 .tw-bg-blue { background-color: #3b82f6; }
 .tw-bg-green { background-color: #10b981; }
+
 /* Flexbox */
 .tw-flex { display: flex; }
 .tw-flex-col { flex-direction: column; }
