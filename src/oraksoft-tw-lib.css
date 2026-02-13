@@ -51,6 +51,14 @@
 .tw-w-50 { width: 12.5rem; }
 .tw-w-60 { width: 15rem; }
 
+.tw-w-min-8 { min-width: 2rem; } /* 32px */
+.tw-w-min-12 { min-width: 3rem; } /* 48px */
+.tw-w-min-16 { min-width: 4rem; } /* 64px */
+.tw-w-min-32 { min-width: 8rem; } /* 128px */
+.tw-w-min-64 { min-width: 16rem; } /* 256px */
+.tw-w-min-72 { min-width: 18rem; } /* 288px */
+.tw-w-min-80 { min-width: 20rem; }  /* 320px */
+
 /* Colors */
 .tw-text-red { color: #ef4444; }
 .tw-text-blue { color: #3b82f6; }
